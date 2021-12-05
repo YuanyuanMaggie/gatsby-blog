@@ -69,7 +69,9 @@ const Skills = () => (
           </div>
         </div>
       </div>
-      <Tree />
+      <React.Suspense fallback={<div>loading skils chart...</div>}>
+        <Tree />
+      </React.Suspense>
     </section>
   </div>
 )
