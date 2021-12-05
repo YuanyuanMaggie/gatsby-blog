@@ -150,6 +150,7 @@ const Portfolio = () => {
     "base"
   )
   const [project, setProject] = React.useState<JSX.Element>(null)
+  const [filterTag, setFilterTag] = React.useState<string>()
 
   return (
     <>
@@ -160,35 +161,57 @@ const Portfolio = () => {
             <div className="row">
               <div className="col-md-12">
                 <ul id="filters">
-                  <li className="active" data-filter="*">
+                  <li
+                    className={filterTag ? undefined : "active"}
+                    onClick={() => setFilterTag(undefined)}
+                  >
                     All
                   </li>
-                  <li data-filter=".work">Work Experience</li>
-                  <li data-filter=".hackathon">Hackathon</li>
-                  <li data-filter=".school">Small Projects</li>
+                  <li
+                    className={filterTag !== "work" ? undefined : "active"}
+                    onClick={() => setFilterTag("work")}
+                  >
+                    Work Experience
+                  </li>
+                  <li
+                    className={filterTag !== "hackathon" ? undefined : "active"}
+                    onClick={() => setFilterTag("hackathon")}
+                  >
+                    Hackathon
+                  </li>
+                  <li
+                    className={filterTag !== "small" ? undefined : "active"}
+                    onClick={() => setFilterTag("small")}
+                  >
+                    Small Projects
+                  </li>
                 </ul>
                 <div id="projects">
-                  {projects.map(project => (
-                    <div className="project" key={project.key}>
-                      <a
-                        className="open-project"
-                        onClick={() => setProject(project.component)}
-                      >
-                        <div className="project-overlay">
-                          <div className="vcenter">
-                            <div className="centrize">
-                              <h4>{project.header}</h4>
-                              <p>{project.subHeader}</p>
+                  {projects
+                    .filter(p =>
+                      filterTag ? p.tags.includes(filterTag) : true
+                    )
+                    .map(project => (
+                      <div className="project" key={project.key}>
+                        <a
+                          className="open-project"
+                          onClick={() => setProject(project.component)}
+                        >
+                          <div className="project-overlay">
+                            <div className="vcenter">
+                              <div className="centrize">
+                                <h4>{project.header}</h4>
+                                <p>{project.subHeader}</p>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </a>
-                      <Img
-                        fluid={imageMap[project.key]?.childImageSharp?.fluid}
-                        alt={project.alt}
-                      />
-                    </div>
-                  ))}
+                        </a>
+                        <Img
+                          fluid={imageMap[project.key]?.childImageSharp?.fluid}
+                          alt={project.alt}
+                        />
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>

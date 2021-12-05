@@ -1,4 +1,5 @@
 import * as React from "react"
+import Tree from "./Tree"
 
 const Skills = () => (
   <div className="content-blocks blog">
@@ -68,11 +69,7 @@ const Skills = () => (
           </div>
         </div>
       </div>
-      <div className="block-content skillsTree">
-        <h3 className="block-title">Skills Trees</h3>
-        <p>Click circle to see details:</p>
-        <div id="skillsTree"></div>
-      </div>
+      <Tree />
     </section>
   </div>
 )
