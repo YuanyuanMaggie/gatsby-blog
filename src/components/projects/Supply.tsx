@@ -1,5 +1,5 @@
 import * as React from "react"
-// import { StaticImage } from "gatsby-plugin-image"
+import supplierGIF from "../../images/projects/supply.gif"
 
 export default () => (
   <div id="project">
@@ -41,11 +41,6 @@ export default () => (
               See New Websites
             </a>
           </div>
-          {/* <StaticImage
-            src="../../images/projects/supply.gif"
-            className="img-responsive gif"
-            alt="supply"
-          /> */}
         </div>
 
         <div className="project-wrapper">
