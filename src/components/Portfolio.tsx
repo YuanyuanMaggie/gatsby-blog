@@ -114,14 +114,14 @@ const projects = [
     tags: ["small"],
     component: <Rapid />,
   },
-  {
-    header: "Non-profit Business Solution",
-    subHeader: "Web Development",
-    key: "p9-nonprofit-min.png",
-    alt: "non profit",
-    tags: ["small"],
-    component: <NonProfit />,
-  },
+  // {
+  //   header: "Non-profit Business Solution",
+  //   subHeader: "Web Development",
+  //   key: "p9-nonprofit-min.png",
+  //   alt: "non profit",
+  //   tags: ["small"],
+  //   component: <NonProfit />,
+  // },
 ]
 
 const Portfolio = () => {

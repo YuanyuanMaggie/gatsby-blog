@@ -9,7 +9,38 @@ export default () => (
           <h2>Two Sigma (Venn Engineer)</h2>
           <p className="tags">Software Engineer</p>
         </div>
+
+        <div className="project-info">
+          <p>
+            <b>My role:</b> Full Stack Engineer
+          </p>
+          <p>
+            <b>Skills utilized:</b> React/Typescript, Java, Eng Lead
+          </p>
+        </div>
+
+        <div className="project-wrapper">
+          <h4>Venn Dashboard</h4>
+          <iframe
+            src="https://player.vimeo.com/video/505397836?h=c1ca7ce0b6"
+            width="640"
+            height="360"
+            frameBorder="0"
+            allowFullScreen
+          ></iframe>
+          <div className="seeDemo">
+            <a
+              className="btn btn-xl"
+              href="https://venn.twosigma.com/"
+              target="_blank"
+            >
+              See More in Marketing site
+            </a>
+          </div>
+        </div>
+
         <div className="project-description">
+          <h4>What I am doing? </h4>
           <ul className="list">
             <li>
               Leading a six-person group to build clients facing features end to
@@ -50,37 +81,9 @@ export default () => (
             </li>
           </ul>
         </div>
-        <div className="project-info">
-          <p>
-            <b>My role:</b> Full Stack Engineer
-          </p>
-          <p>
-            <b>Skills utilized:</b> React/redux, Java, Eng Lead
-          </p>
-        </div>
 
         <div className="project-wrapper">
-          <h4>Venn Dashboard</h4>
-          <iframe
-            src="https://player.vimeo.com/video/505397836?h=c1ca7ce0b6"
-            width="640"
-            height="360"
-            frameBorder="0"
-            allowFullScreen
-          ></iframe>
-          <div className="seeDemo">
-            <a
-              className="btn btn-xl"
-              href="https://venn.twosigma.com/"
-              target="_blank"
-            >
-              See More in Marketing site
-            </a>
-          </div>
-        </div>
-
-        <div className="project-wrapper">
-          <h4>Open Source Side Project - Africa Covid Dashboard</h4>
+          <h4>Volunteering Project Example - Africa Covid Dashboard</h4>
 
           <ul>
             <li>

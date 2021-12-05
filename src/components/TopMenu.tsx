@@ -11,7 +11,7 @@ interface Item {
 
 export const menuItems: Item[] = [
   {
-    label: "Profile",
+    label: "About Me",
     class: "about",
     sectionType: "PROFILE",
   },

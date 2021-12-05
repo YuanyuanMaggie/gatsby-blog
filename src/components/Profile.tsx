@@ -5,7 +5,7 @@ const Profile = () => (
   <div className="content-blocks about">
     <section className="content">
       <div className="block-content">
-        <h3 className="block-title">Profile</h3>
+        <h3 className="block-title">Who am I?</h3>
         <div className="row">
           <div className="col-md-7">
             <p>

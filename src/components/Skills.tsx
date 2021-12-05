@@ -8,61 +8,56 @@ const Skills = () => (
         <h3 className="block-title">Skills</h3>
         <div className="row">
           <div className="col-sm-6">
-            <h4>Technical Skills</h4>
+            <h4>Technical Skill Highlights</h4>
             <div className="row">
               <div className="col-sm-6">
                 <ul className="icon-list">
-                  <li>AngularJS</li>
-                  <li>Bootstrap</li>
-                  <li>CSS3</li>
-                  <li>D3.js</li>
-                  <li>Git</li>
-                  <li>HTML5</li>
-                  <li>Java</li>
-                  <li>JavaScript/ES6</li>
-                  <li>jQuery</li>
-                  <li>MySql/MongoDB</li>
-                  <li>Node/Express</li>
-                </ul>
-              </div>
-              <div className="col-sm-6">
-                <ul className="icon-list">
-                  <li>NPM/Yarn</li>
-                  <li>PHP</li>
-                  <li>Pub(Jade)</li>
-                  <li>React/Redux</li>
-                  <li>Sass/Scss</li>
-                  <li>Sketch 3</li>
-                  <li>SQL</li>
-                  <li>Stylus/Sass</li>
-                  <li>Swift</li>
-                  <li>inVision</li>
-                  <li>SVN</li>
+                  <li>React - Typescript/ES6</li>
+                  <li>Java - Dropwizard</li>
+                  <li>Python - Flask</li>
+                  <li>UI Testing - Jest/Cypress</li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="col-sm-6">
-            <h4>Know-how</h4>
+            <h4>Non-Technical Skill Highlights</h4>
             <div className="row">
               <div className="col-sm-6">
                 <ul className="icon-list">
-                  <li>UX Research</li>
-                  <li>Responsive Web Development</li>
-                  <li>UI/UX Design</li>
                   <li>Rapid prototyping</li>
-                  <li>Data visualization</li>
-                  <li>Database Design and Management</li>
+                  <li>UI/UX Design - Figma/Sketch 3</li>
+                  <li>Sprint Planning</li>
+                  <li>Cross-Functional Collaboration</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-sm-6">
+            <h4>Others</h4>
+            <div className="row">
+              <div className="col-sm-6">
+                <ul className="icon-list">
+                  <li>AngularJS+</li>
+                  <li>Vue</li>
+                  <li>D3.js/Highchart</li>
+                  <li>CI/CD</li>
+                  <li>Postgress/MongoDB</li>
+                  <li>Npm/Yarn</li>
+                  <li>AWS</li>
                 </ul>
               </div>
               <div className="col-sm-6">
                 <ul className="icon-list">
-                  <li>iOS App Development</li>
-                  <li>Agile Development Methodologies</li>
-                  <li>Data Structure and Algorithms</li>
-                  <li>Version Control</li>
-                  <li>Cross-Functional Team Collaboration</li>
-                  <li>Presentation</li>
+                  <li>Flutter</li>
+                  <li>PHP</li>
+                  <li>Swift</li>
+                  <li>Pub(Jade)</li>
+                  <li>Sass/Scss/Stylus</li>
+                  <li>GraphQL</li>
+                  <li>A11Y</li>
                 </ul>
               </div>
             </div>
