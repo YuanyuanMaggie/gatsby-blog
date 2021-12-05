@@ -1,5 +1,5 @@
 import * as React from "react"
-import Tree from "./Tree"
+const Tree = React.lazy(() => import("./Tree"))
 
 const Skills = () => (
   <div className="content-blocks blog">
