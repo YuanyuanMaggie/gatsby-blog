@@ -12,6 +12,7 @@
     "antd": "^4.17.2",
     "gatsby": "^4.2.0",
     "gatsby-image": "^3.11.0",
+    "gatsby-plugin-antd": "^2.2.0",
     "gatsby-plugin-feed": "^4.2.0",
     "gatsby-plugin-gatsby-cloud": "^4.2.0",
     "gatsby-plugin-google-analytics": "^4.2.0",
