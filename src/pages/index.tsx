@@ -6,6 +6,8 @@ import Profile from "../components/Profile"
 import Seo from "../components/seo"
 import Skills from "../components/Skills"
 import TopMenu, { menuItems, SectionType } from "../components/TopMenu"
+import LogRocket from "logrocket"
+LogRocket.init("7xglmd/mywebsite")
 
 const Home = ({ location }) => {
   const sectionType =
